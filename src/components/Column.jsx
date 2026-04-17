@@ -53,7 +53,7 @@ const Column = memo(function Column({
     dragOverIndexRef.current = null;
   };
 
-  // Klaviatura ilə tapşırıq hərəkəti
+
   const handleColKeyDown = (e, taskId, index) => {
     const ci = COL_ORDER.indexOf(column.id);
     const map = {
